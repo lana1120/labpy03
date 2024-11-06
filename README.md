@@ -60,21 +60,21 @@ Start
 1. program meminta user memasukan nilai N yang menentukan berapa banyak angka random < 0.5 yang di inginkan
 
 2. program akan terus menghasilkan kata random samoai mendapatkan angka N buah angka yang nilainya < 0,5
-       - jika angka random ≥ 0,5 : di abaikan dan generate angka baru
-       - jika angka < 0,5 : di cetak dan counter bertambah
+   - jika angka random ≥ 0,5 : di abaikan dan generate angka baru
+   - jika angka < 0,5 : di cetak dan counter bertambah
 
 3. dari output yang terlihat
-       - user masukan N = 5
-       - Program menghasilkan 5 angka random < 0,5 ;
-       ```
+   - user masukan N = 5
+   - Program menghasilkan 5 angka random < 0,5 :
+```
        data ke: 1 => 0.22422725915012398
        data ke: 2 => 0.08143383880445236
        data ke: 3 => 0.29455614142741193
        data ke: 4 => 0.12537763804880175
        data ke: 5 => 0.46041201475820446
-       ```
+```
 
-4. Setelah memndapatkan 5 angka yang memenuhi syarat, program selesai dan mencetak "Selesai"
+5. Setelah memndapatkan 5 angka yang memenuhi syarat, program selesai dan mencetak "Selesai"
 
 Program ini mendemonstrasikan konsep:
  - Perulangan dengan kondisi (while loop)
@@ -190,21 +190,21 @@ Program ini mendemonstrasikan konsep:
 
  # LATIHAN 3
 
- 
+ ![CODINGAN 3](https://github.com/user-attachments/assets/8f27a26d-3e42-4d6f-a24a-b46e9b22b714)
   
-1. *Inisialisasi Program*
-   python
+1. **Inisialisasi Program**
+```python
    def atm_simulator():
        saldo = 1000000  # Saldo awal
-   
+ ```  
 
-2. *Alur Utama*
+2. **Alur Utama**
    
    LOOP Program ATM:
+
        1. Tampilkan menu:
           - 1. Tarik Uang
           - 2. Keluar
-       
        2. Minta input pilihan menu (1/2)
        
        3. CASE Pilihan:
@@ -227,7 +227,7 @@ Program ini mendemonstrasikan konsep:
              Tampilkan "Pilihan tidak valid!"
    
 
-Flowchart algoritma:
+**Flowchart algoritma :**
 
           Start
             ↓
@@ -258,35 +258,34 @@ Flowchart algoritma:
 
 
 **Output Program yang terlihat :**
-
-
+```
 Saldo saat ini: Rp 1000000
 1. Tarik Uang
 2. Keluar
 Pilih menu (1/2): 1
-Masukkan jumlah penarikan: 500000
+Masukkan jumlah penarikan: 730000
 Penarikan berhasil!
 
-Saldo saat ini: Rp 500000
+Saldo saat ini: Rp 270000
 1. Tarik Uang
 2. Keluar
 Pilih menu (1/2): 2
 Terima kasih telah menggunakan ATM!
+```
 
-
-*Penjelasan Detail:*
-1. *Struktur Data*
+**Penjelasan Detail :**
+1. **Struktur Data**
    - Variabel saldo: menyimpan saldo rekening
    - Variabel pilihan: menyimpan pilihan menu
    - Variabel jumlah: menyimpan jumlah penarikan
 
-2. *Validasi*
+2. **Validasi**
    - Validasi pilihan menu (harus 1 atau 2)
    - Validasi jumlah penarikan:
      * Tidak boleh melebihi saldo
      * Tidak boleh negatif atau nol
 
-3. *Fitur*
+3. **Fitur**
    - Cek saldo
    - Penarikan uang
    - Keluar dari program
