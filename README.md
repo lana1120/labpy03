@@ -89,7 +89,7 @@ Program ini mendemonstrasikan konsep:
 
    ![CODINGAN 2](https://github.com/user-attachments/assets/738793cb-3914-4b58-bad6-27159054de14)
 
-   1. **Inisialisasi**
+1. **Inisialisasi**
    ```python
    laba_bulanan = []  # Array kosong untuk menyimpan laba per bulan
    total_laba = 0     # Variabel untuk menyimpan total laba
