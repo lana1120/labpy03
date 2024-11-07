@@ -162,7 +162,7 @@ Flowchart algoritma:
 
 
 **Output Program:** 
-
+```
 laba bulan ke- 1 sebesar: 0
 laba bulan ke- 2 sebesar: 0
 laba bulan ke- 3 sebesar: 1000000.0
@@ -172,7 +172,7 @@ laba bulan ke- 6 sebesar: 5000000.0
 laba bulan ke- 7 sebesar: 5000000.0
 laba bulan ke- 8 sebesar: 2000000.0
 Total laba adalah: 19000000.0
-
+```
 
 *Penjelasan Logika Bisnis:*
 1. Bulan 1-2: Belum ada laba (0%)
@@ -199,7 +199,7 @@ Program ini mendemonstrasikan konsep:
  ```  
 
 2. **Alur Utama**
-   
+  ``` 
    LOOP Program ATM:
 
        1. Tampilkan menu:
@@ -225,7 +225,7 @@ Program ini mendemonstrasikan konsep:
           
           DEFAULT:
              Tampilkan "Pilihan tidak valid!"
-   
+ ```  
 
 **Flowchart algoritma :**
 
