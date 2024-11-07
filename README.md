@@ -97,7 +97,7 @@ Program ini mendemonstrasikan konsep:
    
 
 2. **Proses Perhitungan Laba (Loop pertama)**
-   
+   ```
    FOR bulan FROM 1 TO 8:
    
        1. Set laba = 0
