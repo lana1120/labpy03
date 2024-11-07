@@ -74,7 +74,7 @@ Start
        data ke: 5 => 0.46041201475820446
 ```
 
-5. Setelah memndapatkan 5 angka yang memenuhi syarat, program selesai dan mencetak "Selesai"
+4. Setelah memndapatkan 5 angka yang memenuhi syarat, program selesai dan mencetak "Selesai"
 
 Program ini mendemonstrasikan konsep:
  - Perulangan dengan kondisi (while loop)
