@@ -116,7 +116,7 @@ Program ini mendemonstrasikan konsep:
    
 
 4. **Proses Menampilkan Hasil (Loop kedua)**
-   
+   ```
    FOR bulan, laba IN laba_bulanan:
        Tampilkan "laba bulan ke-{bulan} sebesar: {laba}"
    
